@@ -9,4 +9,67 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  background-image: url('/Images/backgroundtreee.jpeg');
+  background-color: #d3c09e;
+}
+h1 {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 3rem;
+  text-align: center;
+}
+
+#imagelist {
+  /* height: 200px; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 5px solid rgb(36, 34, 34); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+
+  /* margin-right: 40px;
+  margin-left: 0px; */
+}
+
+#videopage {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 5px solid rgb(36, 34, 34); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#indexlinks {
+  /* font-weight: 300; */
+  list-style: none;
+}
+#imagelistequipment {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  /* border: 5px solid rgb(36, 34, 34); */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+p {
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 30px;
+  /* line-height: 1.2; */
+}
+ul {
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
+  padding-left: 60px;
+  padding-right: 30px;
+  line-height: 1.2;
 }
